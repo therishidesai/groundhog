@@ -1,0 +1,14 @@
+[package]
+name = "groundhog-apps"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+groundhog-record = { version = "0.1.0", path = "../groundhog-record" }
+clap = "3.1.18"
+
+[[bin]]
+name = "gh-cli"
+path = "cli.rs"
+doc = false
