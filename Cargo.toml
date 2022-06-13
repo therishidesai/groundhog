@@ -1,0 +1,8 @@
+[workspace]
+members = [
+	"groundhog-record",
+	"groundhog-apps",
+]
+
+[profile.release]
+debug=true
